@@ -1,0 +1,8 @@
+node_modules/
+.git/
+.gitignore
+.vscode/
+.jsbeautifyrc
+tsconfig.json
+yarn.lock
+src/

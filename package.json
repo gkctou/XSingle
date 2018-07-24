@@ -1,0 +1,35 @@
+{
+    "name": "xsingle",
+    "version": "0.0.2",
+    "description": "simple event",
+    "main": "dist/XSingle.js",
+    "types": "dist/XSingle.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "postbuild": "npm version --no-git-tag-version patch --force",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gkctou/XSingle.git"
+    },
+    "keywords": [
+        "singleton",
+        "ts",
+        "typescript"
+    ],
+    "author": "gkctou@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gkctou/XSingle/issues"
+    },
+    "homepage": "https://github.com/gkctou/XSingle#readme",
+    "devDependencies": {
+        "@types/node": "^10.5.2",
+        "typescript": "^2.9.2"
+    },
+    "dependencies": {
+        "es6-promise": "^4.2.4",
+        "xdeferred": "0.0.2"
+    }
+}

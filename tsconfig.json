@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "allowJs": false,
+        "noImplicitAny": false,
+        "outDir": "dist/",
+        "rootDir": "src/",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictNullChecks": false,
+        "declaration": true,
+        "lib": [
+            "es5",
+            "es2015.promise"
+        ],
+        "types": [
+            "node"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "compileOnSave": false
+}
